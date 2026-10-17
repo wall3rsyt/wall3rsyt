@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" width="640" height="160" role="img" aria-labelledby="t d">
+  <title id="t">wall3rs</title>
+  <desc id="d">wall3rs — C++, TypeScript and FiveM. Banner, light theme.</desc>
+  <rect x="0.5" y="0.5" width="639" height="159" rx="8" fill="#ffffff" stroke="#d1d9e0"/>
+  <rect x="40" y="44" width="32" height="3" fill="#0969da"/>
+  <text x="38" y="104" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="600" letter-spacing="-0.5">wall3rs</text>
+  <text x="40" y="132" fill="#59636e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="20">C++ · TypeScript · FiveM</text>
+</svg>
