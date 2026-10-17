@@ -24,7 +24,7 @@ Pull requests are currently under review.
 
 ## Projects
 
-- **[Nextupwetboek](https://github.com/wall3rsyt/Nextupwetboek)** (HTML, CSS, JavaScript): a single-page criminal code reference for a roleplay server, with client-side search by article or topic. Served with GitHub Pages.
+- **[Nextupwetboek](https://github.com/wall3rsyt/Nextupwetboek)** (HTML, CSS, JavaScript): a single-page criminal code reference for a roleplay server, with client-side search across article titles and text. Served with GitHub Pages.
 
 ## Technologies
 
