@@ -3,8 +3,6 @@
   <img src="assets/banner-light.svg" alt="wall3rs — C++, TypeScript and FiveM" width="640">
 </picture>
 
-C++ and TypeScript, mostly around the FiveM platform.
-
 ## About
 
 I contribute performance and stability fixes to FiveM's C++ client and server, mostly in the CEF-based NUI layer, the resource scheduler and streaming lookups. Outside the engine I work on TypeScript tooling for FiveM, and I build small static sites for a Dutch roleplay community.
@@ -25,6 +23,7 @@ Pull requests are currently under review.
 ## Projects
 
 - **[Nextupwetboek](https://github.com/wall3rsyt/Nextupwetboek)** (HTML, CSS, JavaScript): a single-page criminal code reference for a roleplay server, with client-side search across article titles and text. Served with GitHub Pages.
+- **[NextUpApv](https://github.com/wall3rsyt/NextUpApv)** (HTML, CSS, JavaScript): the server rules for the same community as a single page, with section-tracking navigation and a light/dark toggle. Served with GitHub Pages.
 
 ## Technologies
 
