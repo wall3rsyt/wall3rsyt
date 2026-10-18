@@ -5,7 +5,7 @@
 
 ## About
 
-I contribute performance and stability fixes to FiveM's C++ client and server, mostly in the CEF-based NUI layer, the resource scheduler and streaming lookups. Outside the engine I work on TypeScript tooling for FiveM, and I build small static sites for a Dutch roleplay community.
+I contribute performance and stability fixes to FiveM's C++ client and server, mostly in the CEF-based NUI layer, the resource scheduler and streaming lookups. I also work on the Lua frameworks that run on top of it, and on TypeScript tooling for FiveM. Outside of that I build small static sites for a Dutch roleplay community.
 
 ## Open Source
 
@@ -17,6 +17,10 @@ Pull requests are currently under review.
   [#4224](https://github.com/citizenfx/fivem/pull/4224) · [#4226](https://github.com/citizenfx/fivem/pull/4226) · [#4233](https://github.com/citizenfx/fivem/pull/4233)
 - **NUI texture failure path — citizenfx/fivem** (C++, Direct3D 11): fixes a null dereference in `GtaNuiTexture` when creating a texture from a CEF shared handle fails partway through.
   [#4273](https://github.com/citizenfx/fivem/pull/4273)
+- **KVP server crash — citizenfx/fivem** (C++): fixes a server crash when `FIND_KVP` is called on a handle that has already been closed.
+  [#4274](https://github.com/citizenfx/fivem/pull/4274)
+- **Usable item resyncs — esx-framework/esx_core** (Lua): sends one inventory resync per player instead of one per registered item when `RegisterUsableItem` is called in a row.
+  [#1922](https://github.com/esx-framework/esx_core/pull/1922)
 - **fivem-artifacts-db — jgscripts** (TypeScript, Next.js): cached server routes for GitHub lookups to spare visitors' rate limits, batched commit-date requests, and better keyboard and screen-reader support.
   [#40](https://github.com/jgscripts/fivem-artifacts-db/pull/40)
 
@@ -27,4 +31,4 @@ Pull requests are currently under review.
 
 ## Technologies
 
-C++ · TypeScript · JavaScript · Next.js · CEF · Direct3D 11 · HTML/CSS · Git
+C++ · Lua · TypeScript · JavaScript · Next.js · CEF · Direct3D 11 · HTML/CSS · Git
